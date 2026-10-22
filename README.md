@@ -15,7 +15,6 @@ Boolean Functions
 <img width="575" height="65" alt="image" src="https://github.com/user-attachments/assets/04c2d90c-0b6b-4b35-b603-d0e10e1e4f00" />
 
 ## Design / RTL Program
-```
 // gedit mux_demux.v
 module mux2to1 (
     input  wire A,      // input line 0
@@ -35,7 +34,7 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
-```
+
 
 ## Testbench Program
 
@@ -84,7 +83,8 @@ module tb4;
  
         #10 $finish;
     end
-    endmodule
+endmodule
+
 
 ## Truth Table
 
@@ -150,7 +150,9 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 
 ## Output
 
-<img width="611" height="321" alt="image" src="https://github.com/user-attachments/assets/498cca0d-185c-4301-8808-399e9a36c497" />
+<img width="1920" height="1080" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/cc795f26-460b-4881-986f-0945f3827c0a" />
+<img width="1920" height="1080" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/6e260880-3415-4139-b847-feda145d2cea" />
+
 
 ## Viva-Voce Questions
 
